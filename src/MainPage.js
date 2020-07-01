@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 import { Menu } from 'antd';
 const { SubMenu } = Menu;
-import { Route, Switch, Link, BrowserRouter as  Router, withRouter,browserHistory} from 'react-router-dom';
+import { Route, Switch, Link, HashRouter as  Router, withRouter,browserHistory} from 'react-router-dom';
 
 import NotLiveRoute from 'react-live-route'
 
@@ -89,7 +89,7 @@ export default class MainRoute extends React.Component {
             }
         });
         return (
-            <Router browserHistory={browserHistory}>
+            <Router>
                 <div className='common-page'>
                     <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal">
                         <Menu.Item key="logo" style={{fontSize:0,background:'#f9a623'}} >
@@ -99,8 +99,11 @@ export default class MainRoute extends React.Component {
                         </Menu.Item>
                         {element}
                     </Menu>
-                    <Route exact path="/" component={ContentPage} />
-                    <Route path={"/DefaultPage"} component={DefaultPage} />
+                    <Switch>
+                        <Route exact path="/" component={ContentPage} />
+                        <Route path={"/DefaultPage"} component={DefaultPage} />
+                        <Route component={ContentPage} />
+                    </Switch>
                 </div>
             </Router>
         )

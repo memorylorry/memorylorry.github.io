@@ -4,7 +4,8 @@ import GetRequestParam from '../util/GetRequestParam';
 
 export default class DefaultPage extends React.Component{
     render(){
-        let params = GetRequestParam();
+        let params = GetRequestParam(true);
+        console.log(params);
         return (
             <div className={'sub-page'}>
                 <h2>{params.content?params.content:'本页正在建设中，尽请期待。'}</h2>
