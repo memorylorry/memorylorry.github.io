@@ -1,5 +1,6 @@
 var AssetsPlugin = require('assets-webpack-plugin')
 const version = new Date().getTime();
+const path = require('path')
 
 module.exports = {
     entry: {
@@ -7,7 +8,7 @@ module.exports = {
     },
     output: {
         filename: '[name].' + version + '.js',
-        publicPath: '/assets/'
+        path:path.resolve(__dirname,'assets/')
     },
     module: {
         rules: [
