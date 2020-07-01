@@ -10,7 +10,16 @@ module.exports = {
         filename: '[name].' + version + '.js',
         path:path.resolve(__dirname,'assets/'),
         publicPath:'/assets/'
-
+    },
+    devServer:{
+        historyApiFallback:{
+            rewrites:[
+                {
+                    from: /.*/g,
+                    to: '/index.html'
+                }
+            ]
+        }
     },
     module: {
         rules: [
