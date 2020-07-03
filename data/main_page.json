@@ -124,6 +124,34 @@
             ]
         },
         {
+            "key":"web_rec_module",
+            "type":"title",
+            "name":"网站推荐",
+            "data":[
+                {
+                    "type":"link",
+                    "name":"财经数据接口(Python-Tushare)",
+                    "href":"http://tushare.org/",
+                    "sub_name":"新平台",
+                    "sub_href":"https://www.waditu.com/"
+                },
+                {
+                    "type":"link",
+                    "name":"Kaggle-数据科学教育平台",
+                    "href":"https://www.kaggle.com",
+                    "sub_name":"",
+                    "sub_href":""
+                },
+                {
+                    "type":"link",
+                    "name":"leetcode 刷代码",
+                    "href":"https://leetcode.com/",
+                    "sub_name":"",
+                    "sub_href":""
+                }
+            ]
+        },
+        {
             "key":"err_module",
             "type":"title",
             "name":"相关错误处理",
