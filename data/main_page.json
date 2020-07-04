@@ -120,6 +120,41 @@
                     "href":"",
                     "sub_name":"",
                     "sub_href":""
+                },
+                {
+                    "type":"link",
+                    "name":"斯坦福视觉与学习实验室",
+                    "href":"http://cs231n.stanford.edu/",
+                    "sub_name":"工学学习视频",
+                    "sub_href":"https://www.youtube.com/user/stanfordeng"
+                },
+                {
+                    "type":"link",
+                    "name":"斯坦福大学CV相关视频",
+                    "href":"https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv",
+                    "sub_name":"课件",
+                    "sub_href":"http://cs231n.stanford.edu/slides/2017/"
+                },
+                {
+                    "type":"link",
+                    "name":"伊利诺伊大学机器视觉课件（图文并茂，内容比较基础）",
+                    "href":"http://slazebni.cs.illinois.edu/spring19/",
+                    "sub_name":"",
+                    "sub_href":""
+                },
+                {
+                    "type":"link",
+                    "name":"普林斯顿大学机器视觉课件（图文并茂，内容比较基础）",
+                    "href":"https://www.cs.princeton.edu/courses/archive/fall17/cos429/outline.html",
+                    "sub_name":"",
+                    "sub_href":""
+                },
+                {
+                    "type":"link",
+                    "name":"宾夕法尼亚州立大学机器视觉课件（内容基础,图多）",
+                    "href":"http://www.cse.psu.edu/~rtc12/CSE486/ ",
+                    "sub_name":"",
+                    "sub_href":""
                 }
             ]
         },
