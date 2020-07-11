@@ -74,6 +74,13 @@
                 },
                 {
                     "type":"link",
+                    "name":"李宏毅2020机器学习深度学习",
+                    "href":"https://www.bilibili.com/video/BV1JE411g7XF?p=1",
+                    "sub_name":"原版",
+                    "sub_href":"https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ"
+                },
+                {
+                    "type":"link",
                     "name":"吴恩达的机器学习基础",
                     "href":"https://www.bilibili.com/video/BV164411b7dx?from=search&seid=10524356999059503503",
                     "sub_name":"",
@@ -82,7 +89,7 @@
                 {
                     "type":"link",
                     "name":"Google机器学习速成课",
-                    "href":"",
+                    "href":"https://developers.google.com/machine-learning/crash-course/ml-intro",
                     "sub_name":"",
                     "sub_href":""
                 },
